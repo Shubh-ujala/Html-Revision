@@ -1,3 +1,4 @@
 alt+shift+downkey => duplicate
 click + alt + click => to get two arrows simultaneously (multitasking)
 ctrl + alt+ downkey => multitasking
+alt + z => wrap text
