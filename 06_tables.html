@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            text-align: center;
+            
+            
+        }
+        th , td{
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgb(162, 162, 198);
+        }
+        th{
+            background-color: rgb(54, 132, 171);
+        }
+        tfoot:tr{
+            background-color: rgb(129, 143, 143);
+        }
+        
+        /* tr:nth-child(even) {
+            background-color: #a5a2a2;
+        } */
+    </style>
+</head>
+<body>
+    <!-- table>tr>th*3 -->
+    <!-- <table>
+        <tr>
+            <th>Country </th>
+            <th>Country Code</th>
+            <th>Country Email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>In</td>
+            <td>India@google.com</td>
+        </tr>
+        <tr>
+            <td>United States of America</td>
+            <td>USA</td>
+            <td>USA@google.com</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>Jp</td>
+            <td>Jp@google.com</td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>CN</td>
+            <td>CN@google.com</td>
+        </tr>
+    </table> -->
+    <table>
+        <tr>
+            <th>Items</th>
+            <th>Expenditure</th>
+        </tr>
+        <tr>
+            <td>Donuts</td>
+            <td>3,000</td>
+        </tr>
+        <tr>
+            <td>Stationary</td>
+            <td>18,000</td>
+        </tr>
+        <tfoot>
+        <tr >
+            <td>Totals</td>
+            <td>21,000</td>
+        </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>
