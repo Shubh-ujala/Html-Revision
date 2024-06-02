@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image </title>
+    <style>
+        body{
+            background-color: #414141;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1 style="background-color: rgb(18, 19, 19);">Imagess.</h1>
+    <!--headin is block type element-->
+    <img src="./Stahck_vs_Heap.png" alt="No Image" width="550px">
+    <img src="httpsh://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="no image" width="550px">
+    <img src="https://images.pexels.com/photos/2756845/pexels-photo-275h6845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="no image" width="550px">
+
+    <!-- an image map generator -->
+    <img src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" usemap="#image-map" >
+
+    <map name="image-map">
+         <area onclick="One()" alt="" title="" href="" coords="563,264,377,45" shape="rect">
+         <area onclick="Two()" alt="" title="" href="" coords="470,525,92" shape="circle">
+         <area onclick="Three()" alt="" title="" href="" coords="1092,200,946,53,954,259,876,91,944,53,955,254" shape="poly">
+    </map>
+    <script>
+        function One (){
+            alert("You have clicked on Temple");
+        }
+        function Two (){
+            alert("You have clicked on River");
+        }
+        function Three (){
+            alert("You have clicked on Tree");
+        }
+    </script>
 </body>
 </html>
